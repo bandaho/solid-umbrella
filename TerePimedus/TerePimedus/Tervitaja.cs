@@ -10,11 +10,12 @@ namespace TerePimedus
             Console.WriteLine("Hello {0}.", who);
         }
 
-        internal static void Tervita(string[] v)
+        internal static void Tervita(string[] names)
         {
-            Console.WriteLine("Hello {0}.", v);
-            Console.WriteLine("Hello {1}.", v);
-            Console.WriteLine("Hello {2}.", v);
+            for (int i = 0; i < names.Length; i++)
+            {
+                Tervita(names[i]);
+            }
         }
     }
 }
