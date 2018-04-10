@@ -15,6 +15,7 @@ namespace TerePimedus
             Console.WriteLine("Because a vision softly creeping"); // lisatud kohalikust kasutajast
             // peaks nüüd saama ssh võtmega pushida visualist githubi...?
             Tervitaja.Tervita("Darknessmyoldfriend");
+            Tervitaja.Tervita(new string[] {"Kristjan", "Jaan", "Toomas"});
         }
     }
 }
