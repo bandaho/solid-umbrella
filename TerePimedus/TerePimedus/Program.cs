@@ -14,6 +14,7 @@ namespace TerePimedus
             Console.WriteLine("I've come to talk with you again"); // lisatud githubist
             Console.WriteLine("Because a vision softly creeping"); // lisatud kohalikust kasutajast
             // peaks nüüd saama ssh võtmega pushida visualist githubi...?
+            Tervitaja.Tervita("Darknessmyoldfriend");
         }
     }
 }
