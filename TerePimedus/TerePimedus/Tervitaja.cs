@@ -9,5 +9,12 @@ namespace TerePimedus
         {
             Console.WriteLine("Hello {0}.", who);
         }
+
+        internal static void Tervita(string[] v)
+        {
+            Console.WriteLine("Hello {0}.", v);
+            Console.WriteLine("Hello {1}.", v);
+            Console.WriteLine("Hello {2}.", v);
+        }
     }
 }
