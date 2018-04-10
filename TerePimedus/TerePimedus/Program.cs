@@ -12,7 +12,7 @@ namespace TerePimedus
         {
             Console.WriteLine("Hello Darkness, my old friend"); // esimene lause siit koolikeskkonnast
             Console.WriteLine("I've come to talk with you again"); // lisatud githubist
-            Console.WriteLine("Because a vision softly creeping") // lisatud kohalikust kasutajast
+            Console.WriteLine("Because a vision softly creeping"); // lisatud kohalikust kasutajast
         }
     }
 }
